@@ -85,7 +85,7 @@ int main() {
 
 	//3.测试set函数和get函数
 	date1.setMonth(12);
-	cout << "set的month" << "为 ";
+	cout << "set 的 month 为： ";
 	date1.displayDate();
 
 	cout << "date1's year: " << date1.getYear() << endl;
