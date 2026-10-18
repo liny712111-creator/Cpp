@@ -7,14 +7,14 @@ int main() {
     cout << "Enter three nonzero integers: ";
     cin >> a >> b >> c;
 
-    // Side lengths must be positive.
+    //判断边长是否为正数
     if (a <= 0 || b <= 0 || c <= 0) {
         cout << "Side lengths must be positive." << endl;
         return 0;
     }
 
 
-    long long side1, side2, hypotenuse;
+    int side1, side2, hypotenuse;
 
     //找出最大的数作斜边
     if (a >= b && a >= c) {
