@@ -1,15 +1,15 @@
-#include "Employee.h"
+ï»¿#include "Employee.h"
 
 
-//¹¹Ôìº¯Êý£¬³õÊ¼»¯ÁÐ±í
+//æž„é€ å‡½æ•°ï¼Œåˆå§‹åŒ–åˆ—è¡¨
 Employee::Employee(std::string first, std::string last, int salary)
     : firstName(first), lastName(last)
 {
-    //µ÷ÓÃset£¬×Ô¶¯×öºÏ·¨ÐÔÅÐ¶Ï
+    //è°ƒç”¨setï¼Œè‡ªåŠ¨åšåˆæ³•æ€§åˆ¤æ–­
     setMonthlySalary(salary);
 }
 
-//set¡¢getÃû
+//setã€getå
 void Employee::setFirstName(std::string first)
 {
     firstName = first;
@@ -19,7 +19,7 @@ std::string Employee::getFirstName() const
     return firstName;
 }
 
-//set/getÐÕ
+//set/getå§“
 void Employee::setLastName(std::string last)
 {
     lastName = last;
@@ -29,7 +29,7 @@ std::string Employee::getLastName() const
     return lastName;
 }
 
-//setÔÂÐ½£ºÅÐ¶Ï·ÇÕýÊý¾Í±äÎª0
+//setæœˆè–ªï¼šåˆ¤æ–­éžæ­£æ•°å°±å˜ä¸º0
 void Employee::setMonthlySalary(int salary)
 {
     if (salary > 0)

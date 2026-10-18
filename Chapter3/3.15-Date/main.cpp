@@ -1,19 +1,19 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 
 class Date {
 
-	//¶¨Òå³ÉÔ±±äÁ¿
+	//å®šä¹‰æˆå‘˜å˜é‡
 private:
 	int day;
 	int month;
 	int year;
 
-	//¹¹Ôìº¯Êý
+	//æž„é€ å‡½æ•°
 public:
 	Date(int m, int d, int y) {
-		//ÅÐ¶ÏmonthÊÇ·ñÔÚ1-12
+		//åˆ¤æ–­monthæ˜¯å¦åœ¨1-12
 		if (m >= 1 && m <= 12) {
 			month = m;
 		}
@@ -25,8 +25,8 @@ public:
 		year = y;
 	}
 
-	//setº¯Êý
-	//setÔÂ·Ý
+	//setå‡½æ•°
+	//setæœˆä»½
 	void setMonth(int m){
 		if (m >= 1 && m <= 12) {
 			month = m;
@@ -36,56 +36,56 @@ public:
 		}
 	}
 
-	//setÈÕÆÚ
+	//setæ—¥æœŸ
 	void setDay(int d){
 		day = d;
 	}
 
-	//setÄê·Ý
+	//setå¹´ä»½
 	void setYear(int y){
 		year = y;
 	}
 
-	//getº¯Êý
-	//getÔÂ·Ý
+	//getå‡½æ•°
+	//getæœˆä»½
 	int getMonth() {
 		return month;
 	}
 
-	//getÈÕÆÚ
+	//getæ—¥æœŸ
 	int getDay() {
 		return day;
 	}
 
-	//getÄê·Ý
+	//getå¹´ä»½
 	int getYear() {
 		return year;
 	}
 
 	
-	//¹¹Ôì³ÉÔ±º¯Êý£º°´ÔÂ/ÈÕ/Äê ¸ñÊ½Êä³ö
+	//æž„é€ æˆå‘˜å‡½æ•°ï¼šæŒ‰æœˆ/æ—¥/å¹´ æ ¼å¼è¾“å‡º
 	void displayDate() {
 		cout << month << "/" << day << "/" << year << endl;
 	}
 };
 
 
-//Ö÷³ÌÐò
+//ä¸»ç¨‹åº
 int main() {
 
-	//1.²âÊÔºÏ·¨ÔÂ·Ý
+	//1.æµ‹è¯•åˆæ³•æœˆä»½
 	Date date1(10, 11, 2026);
 	cout << "This is test1: ";
 	date1.displayDate();
 
-	//2.²âÊÔ·Ç·¨ÔÂ·Ý
+	//2.æµ‹è¯•éžæ³•æœˆä»½
 	Date date2(15, 11, 2026);
 	cout << "This is test2: ";
 	date2.displayDate();
 
-	//3.²âÊÔsetº¯ÊýºÍgetº¯Êý
+	//3.æµ‹è¯•setå‡½æ•°å’Œgetå‡½æ•°
 	date1.setMonth(12);
-	cout << "set µÄ month Îª£º ";
+	cout << "set çš„ month ä¸ºï¼š ";
 	date1.displayDate();
 
 	cout << "date1's year: " << date1.getYear() << endl;

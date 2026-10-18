@@ -1,4 +1,4 @@
-// Fig. 3.11: GradeBook.h
+ï»¿// Fig. 3.11: GradeBook.h
 // GradeBook class definition. This file presents GradeBook's public
 // interface without revealing the implementations of GradeBook's member
 // functions, which are defined in GradeBook.cpp.
@@ -8,13 +8,13 @@
 class GradeBook
 {
 public:
-	//1.ĞŞ¸Ä¹¹Ôìº¯Êı£º½ÓÊÕ¿Î³ÌÃû + ½²Ê¦ÃûÁ½¸ö²ÎÊı
+	//1.ä¿®æ”¹æ„é€ å‡½æ•°ï¼šæ¥æ”¶è¯¾ç¨‹å + è®²å¸ˆåä¸¤ä¸ªå‚æ•°
 	explicit GradeBook(std::string, std::string);
 
 	void setCourseName(std::string); // sets the course name
 	std::string getCourseName() const; // gets the course name
 
-	//2.ĞÂÔö½²Ê¦ĞÕÃûµÄset / getº¯ÊıÉùÃ÷
+	//2.æ–°å¢è®²å¸ˆå§“åçš„set / getå‡½æ•°å£°æ˜
 	void setInstructorName(std::string);
 	std::string getInstructorName() const;
 
@@ -22,5 +22,5 @@ public:
 
 private:
 	std::string courseName; // course name for this GradeBook
-	std::string instructorName; //ĞÂÔö£º¿Î³Ì½²Ê¦ĞÕÃû
+	std::string instructorName; //æ–°å¢ï¼šè¯¾ç¨‹è®²å¸ˆå§“å
 }; // end class GradeBook

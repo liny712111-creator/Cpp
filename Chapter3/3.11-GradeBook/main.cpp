@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "GradeBook.h"
 using namespace std;
 
@@ -6,14 +6,14 @@ using namespace std;
 
 int main()
 {
-    // ´´½¨¶ÔÏó£¬´«Èë¿Î³ÌÃûºÍ½²Ê¦Ãû
+    // åˆ›å»ºå¯¹è±¡ï¼Œä¼ å…¥è¯¾ç¨‹åå’Œè®²å¸ˆå
     GradeBook gradeBook("C++ Programming", "Professor Chen");
 
-    // ³õÊ¼×´Ì¬ÏÔÊ¾
+    // åˆå§‹çŠ¶æ€æ˜¾ç¤º
     cout << "Initial course information:\n" << endl;
     gradeBook.displayMessage();
 
-    // ²âÊÔ set º¯ÊıĞŞ¸Ä½²Ê¦ĞÕÃû
+    // æµ‹è¯• set å‡½æ•°ä¿®æ”¹è®²å¸ˆå§“å
     gradeBook.setInstructorName("Professor Lin");
     cout << "\nAfter changing instructor:\n" << endl;
     gradeBook.displayMessage();

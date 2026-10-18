@@ -1,11 +1,11 @@
-#include <string>
+ï»¿#include <string>
 class Employee
 {
 public:
-    //¹¹Ôìº¯Êı£¬³õÊ¼»¯Èı¸ö³ÉÔ±
+    //æ„é€ å‡½æ•°ï¼Œåˆå§‹åŒ–ä¸‰ä¸ªæˆå‘˜
     explicit Employee(std::string, std::string, int);
 
-    //set¡¢getº¯Êı
+    //setã€getå‡½æ•°
     void setFirstName(std::string);
     std::string getFirstName() const;
 

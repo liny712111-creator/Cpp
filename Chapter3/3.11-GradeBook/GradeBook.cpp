@@ -1,11 +1,11 @@
-// Fig. 3.12: GradeBook.cpp
+ï»¿// Fig. 3.12: GradeBook.cpp
 // GradeBook member-function definitions. This file contains
 // implementations of the member functions prototyped in GradeBook.h.
 #include <iostream>
 #include "GradeBook.h" // include definition of class GradeBook
 using namespace std;
 
-//1.ĞŞ¸Ä¹¹Ôìº¯Êı£ºÓÃ³ÉÔ±³õÊ¼»¯ÁĞ±í³õÊ¼»¯Á½¸öÊı¾İ³ÉÔ±
+//1.ä¿®æ”¹æ„é€ å‡½æ•°ï¼šç”¨æˆå‘˜åˆå§‹åŒ–åˆ—è¡¨åˆå§‹åŒ–ä¸¤ä¸ªæ•°æ®æˆå‘˜
 GradeBook::GradeBook(string course, string instructor)
     : courseName(course), instructorName(instructor) // member initializer
 {
@@ -24,20 +24,20 @@ string GradeBook::getCourseName() const
     return courseName; // return object's courseName
 } // end function getCourseName
 
-//2.Ôö¼Ósetº¯ÊıºÍgetº¯Êı
-//setº¯Êı£ºÉèÖÃ½²Ê¦ĞÕÃû
+//2.å¢åŠ setå‡½æ•°å’Œgetå‡½æ•°
+//setå‡½æ•°ï¼šè®¾ç½®è®²å¸ˆå§“å
 void GradeBook::setInstructorName(string instructor)
 {
     instructorName = instructor;
 }
 
-//getº¯Êı£º»ñÈ¡½²Ê¦ĞÕÃû
+//getå‡½æ•°ï¼šè·å–è®²å¸ˆå§“å
 string GradeBook::getInstructorName() const
 {
     return instructorName;
 }
 
-//3.ĞŞ¸Ä displayMessage£ºÊä³ö»¶Ó­ĞÅÏ¢ + ½²Ê¦ĞÅÏ¢
+//3.ä¿®æ”¹ displayMessageï¼šè¾“å‡ºæ¬¢è¿ä¿¡æ¯ + è®²å¸ˆä¿¡æ¯
 void GradeBook::displayMessage() const
 {
     // call getCourseName to get the courseName
