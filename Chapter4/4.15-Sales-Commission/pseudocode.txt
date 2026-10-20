@@ -4,12 +4,12 @@
     输入销售额 sales
     
     while循环：
-    当 sales 不等于 -1 时，重复执行
-        如果 sales 大于或等于 0
-            earnings = 200 + 0.09 × sales
-            cout earnings（保留两位小数）
-        否则
-            显示无效输入提示
+        当 sales 不等于 -1 时，重复执行
+            如果 sales 大于或等于 0
+                earnings = 200 + 0.09 × sales
+                cout earnings（保留两位小数）
+            否则
+                显示无效输入提示
 
         cout输入下一位销售人员销售额的提示
         cin 下一个sales
