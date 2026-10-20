@@ -1,16 +1,18 @@
 开始
-    显示输入上周销售额的提示
-    读入销售额 sales
-
+    定义变量sales
+    cout输入上周销售额的提示
+    输入销售额 sales
+    
+    while循环：
     当 sales 不等于 -1 时，重复执行
         如果 sales 大于或等于 0
-            earnings ← 200 + 0.09 × sales
-            显示 earnings（保留两位小数）
+            earnings = 200 + 0.09 × sales
+            cout earnings（保留两位小数）
         否则
             显示无效输入提示
-        结束如果
 
-        显示输入下一位销售人员销售额的提示
-        读入 sales
-    结束当
+        cout输入下一位销售人员销售额的提示
+        cin 下一个sales
+    
+        return 0
 结束
