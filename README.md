@@ -7,4 +7,4 @@
 
 每题各自放在一个文件夹中，程序入口为 `main.cpp`。
 
-第四章各题文件夹中的 pseudocode.txt 文件记录对应算法的伪代码。
+4.15（Sales Commission Calculator）文件夹中的 `pseudocode.txt` 保存本题伪代码。
