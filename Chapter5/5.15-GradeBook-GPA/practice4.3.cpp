@@ -2,7 +2,6 @@
 // Create GradeBook object, input grades and display grade report.
 #include "GradeBook.h" // include definition of class GradeBook
 
-/*
 int main()
 {
     // create GradeBook object
@@ -12,4 +11,3 @@ int main()
     myGradeBook.inputGrades(); // read grades from user
     myGradeBook.displayGradeReport(); // display report based on grades
 } // end main
-*/
