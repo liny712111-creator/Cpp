@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
 
-/*
 int main()
 {
     int count;   //定义变量count：表示后面要输入数字的个数
@@ -23,4 +22,3 @@ int main()
     cout <<count << "个数的总和为：" << sum << endl;
     return 0;
 }
-*/
