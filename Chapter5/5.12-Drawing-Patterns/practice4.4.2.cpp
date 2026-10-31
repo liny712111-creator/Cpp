@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+//并列打印四个图案版本
 int main()
 {
     //一共10行，每行同时输出a b c d四块
