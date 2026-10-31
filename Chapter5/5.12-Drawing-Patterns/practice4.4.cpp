@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+//分开打印四个图案版本
 int main()
 {
     //图案(a)
