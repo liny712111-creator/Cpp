@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
 
-/*
 int main()
 {
     //图案(a)
@@ -68,4 +67,3 @@ int main()
 
     return 0;
 }
-*/
