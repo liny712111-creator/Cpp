@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
 
-/*
 int main()
 {
     int count = 0; //统计找到的三元组总数
@@ -29,4 +28,3 @@ int main()
     cout << "\n共找到 " << count << " 组毕达哥拉斯三元组" << endl;
     return 0;
 }
-*/
