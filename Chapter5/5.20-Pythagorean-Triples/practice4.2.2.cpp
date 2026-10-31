@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+//去除重复、只保留side2 ≥ side1 版本
 int main()
 {
     int count = 0; //统计找到的三元组总数
@@ -11,6 +12,7 @@ int main()
     //使用三重嵌套循环，穷举所有边长组合
     for (int side1 = 1; side1 <= 500; side1++)
     {
+        //去除重复，只保留 side2 ≥ side1 的组合
         for (int side2 = side1; side2 <= 500; side2++)
         {
             for (int hypotenuse = 1; hypotenuse <= 500; hypotenuse++)
