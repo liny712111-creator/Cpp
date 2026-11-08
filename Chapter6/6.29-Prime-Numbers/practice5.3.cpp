@@ -52,5 +52,6 @@ int main()
     }
 
     cout << "\n\n2-10000之间素数总数量 = " << count << endl;
+    cout << "最少需要试除到100，即10000开根号" << endl;
     return 0;
 }
